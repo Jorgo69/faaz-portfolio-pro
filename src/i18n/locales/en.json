@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Home",
+    "biography": "Biography",
+    "photography": "Photography",
+    "clips": "Video Clips",
+    "event": "Event",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Capturing moments, telling stories",
+    "subtitle": "Professional Photographer & Videographer",
+    "cta": "Discover my work"
+  },
+  "biography": {
+    "title": "Biography",
+    "intro": "Passionate about visual arts for over 10 years, I transform every moment into a work of art.",
+    "body": "My approach combines professional technique and artistic sensitivity to capture the essence of each project. From portrait photography to music videos, each creation tells a unique story."
+  },
+  "photography": {
+    "title": "Photography",
+    "description": "Discover my selection of artistic and commercial photography."
+  },
+  "clips": {
+    "title": "Professional Video Clips",
+    "description": "Creative video productions for artists, brands and events."
+  },
+  "event": {
+    "title": "Event Coverage",
+    "description": "Photo and video reports for your professional and private events."
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's discuss your project",
+    "name": "Full name",
+    "email": "Email",
+    "message": "Your message",
+    "submit": "Send",
+    "success": "Message sent successfully!"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "follow": "Follow me"
+  },
+  "gallery": {
+    "loading": "Loading...",
+    "client": "Client",
+    "date": "Date"
+  }
+}

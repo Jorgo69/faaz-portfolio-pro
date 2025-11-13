@@ -1,0 +1,50 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "biography": "Biographie",
+    "photography": "Photographie",
+    "clips": "Clips Vidéo",
+    "event": "Événement",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Capturer l'instant, raconter l'histoire",
+    "subtitle": "Photographe & Vidéaste Professionnel",
+    "cta": "Découvrir mon travail"
+  },
+  "biography": {
+    "title": "Biographie",
+    "intro": "Passionné par l'art visuel depuis plus de 10 ans, je transforme chaque moment en œuvre d'art.",
+    "body": "Mon approche combine technique professionnelle et sensibilité artistique pour capturer l'essence de chaque projet. De la photographie de portrait aux clips musicaux, chaque création raconte une histoire unique."
+  },
+  "photography": {
+    "title": "Photographie",
+    "description": "Découvrez ma sélection de photographies artistiques et commerciales."
+  },
+  "clips": {
+    "title": "Clips Vidéo Professionnels",
+    "description": "Productions vidéo créatives pour artistes, marques et événements."
+  },
+  "event": {
+    "title": "Couverture Événement",
+    "description": "Reportages photo et vidéo pour vos événements professionnels et privés."
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "subtitle": "Discutons de votre projet",
+    "name": "Nom complet",
+    "email": "Email",
+    "message": "Votre message",
+    "submit": "Envoyer",
+    "success": "Message envoyé avec succès !"
+  },
+  "footer": {
+    "rights": "Tous droits réservés",
+    "follow": "Suivez-moi"
+  },
+  "gallery": {
+    "loading": "Chargement...",
+    "client": "Client",
+    "date": "Date"
+  }
+}
