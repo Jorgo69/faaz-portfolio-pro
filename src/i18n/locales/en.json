@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Home",
+    "world": "Our World",
     "biography": "Biography",
     "photography": "Photography",
     "clips": "Video Clips",
@@ -30,13 +31,52 @@
     "description": "Photo and video reports for your professional and private events."
   },
   "contact": {
-    "title": "Contact Me",
-    "subtitle": "Let's discuss your project",
+    "title": "Let's discuss your project",
+    "subtitle": "Whether you need a photo session, video clip, or event coverage, I'm here to bring your ideas to life.",
     "name": "Full name",
-    "email": "Email",
-    "message": "Your message",
-    "submit": "Send",
-    "success": "Message sent successfully!"
+    "email": "Email address",
+    "phone": "Phone",
+    "optional": "optional",
+    "projectType": "Project type",
+    "selectType": "Select project type",
+    "budget": "Estimated budget",
+    "selectBudget": "Select a range",
+    "message": "Describe your project",
+    "messagePlaceholder": "Tell me about your vision, goals, and expectations...",
+    "submit": "Send request",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "successDetails": "I'll get back to you within 24 hours. Check your emails (including spam folder).",
+    "info": "Contact information",
+    "location": "Location",
+    "hours": "Opening hours",
+    "weekdays": "Mon - Fri",
+    "weekend": "Sat - Sun",
+    "onAppointment": "By appointment",
+    "followMe": "Follow me",
+    "faq": "Frequently asked questions",
+    "faqQ1": "What's the delivery time?",
+    "faqA1": "Usually 7-14 days for photos, 2-4 weeks for video depending on complexity.",
+    "faqQ2": "Do you work outside Abidjan?",
+    "faqA2": "Yes, I travel throughout Ivory Coast and internationally upon request.",
+    "faqQ3": "Do you offer free quotes?",
+    "faqA3": "Absolutely! All my quotes are free with no obligation.",
+    "urgentProject": "Urgent project?",
+    "urgentText": "Need a quick response? Contact me directly on WhatsApp.",
+    "types": {
+      "photography": "Photography",
+      "video": "Video clip / Film",
+      "event": "Event coverage",
+      "commercial": "Commercial campaign",
+      "other": "Other"
+    },
+    "errors": {
+      "nameShort": "Name must be at least 2 characters",
+      "emailInvalid": "Invalid email address",
+      "messageShort": "Message must be at least 10 characters",
+      "messageLong": "Message cannot exceed 500 characters",
+      "sendFailed": "Error sending. Please try again."
+    }
   },
   "footer": {
     "rights": "All rights reserved",

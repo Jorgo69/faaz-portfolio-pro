@@ -1,6 +1,6 @@
 ### 2️⃣6️⃣ `README.md`
 ````markdown
-# 🎨 Portfolio Barakell Beni – Clone Vue 3
+# 🎨 Portfolio FaaZ - Fa2Z – Clone Vue 3
 
 Portfolio professionnel moderne développé avec **Vue 3**, **Vite**, **Tailwind CSS 3**, **Vue Router 4** et **Vue I18n 9**.
 
@@ -95,3 +95,6 @@ Ajouter un fichier `public/_redirects` (Netlify) ou `vercel.json` pour le routag
 **_redirects** (Netlify) :
 ````
 /*    /index.html   200
+
+Deploy on Surge:
+ibra-faaz-portfolio-pro.surge.sh

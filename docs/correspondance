@@ -1,0 +1,3 @@
+POur chercher de correspondance
+    grep -R "/images/" -n src
+    grep -R "/videos/" -n src

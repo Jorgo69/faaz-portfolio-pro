@@ -3,8 +3,8 @@ export const alternatingContent = [
   {
     id: 1,
     type: 'image',
-    media: '/images/sample-1.jpg',
-    mediaLarge: '/images/sample-1-large.jpg',
+    media: 'https://i.pinimg.com/1200x/31/d4/d8/31d4d89eaa11ef3e962cd9c82e557ea8.jpg',
+    mediaLarge: 'https://i.pinimg.com/1200x/37/72/81/3772812539b0c1bf8514ec1016d505f7.jpg',
     category: 'Photographie Artistique',
     title: 'Capturer l\'essence du moment',
     subtitle: 'Des portraits qui racontent votre histoire',
@@ -29,8 +29,8 @@ export const alternatingContent = [
   {
     id: 2,
     type: 'video',
-    media: '/videos/clip-demo.mp4',
-    poster: '/images/sample-2.jpg',
+    media: 'https://download.samplelib.com/mp4/sample-20s.mp4',
+    poster: 'https://cdn.pixabay.com/photo/2017/02/06/15/15/video-2040147_1280.jpg',
     category: 'Production Vidéo',
     title: 'Des clips qui marquent les esprits',
     subtitle: 'Créativité et technique au service de votre vision',
@@ -50,7 +50,7 @@ export const alternatingContent = [
   {
     id: 3,
     type: 'image',
-    media: '/images/sample-3.jpg',
+    media: 'https://i.pinimg.com/1200x/dd/17/59/dd17592f32b12b57f4ebf0fef0c097c7.jpg',
     category: 'Événements Premium',
     title: 'Immortaliser vos moments précieux',
     subtitle: 'Couverture complète de vos événements',
@@ -75,7 +75,7 @@ export const alternatingContent = [
   {
     id: 4,
     type: 'image',
-    media: '/images/sample-4.jpg',
+    media: 'https://i.pinimg.com/1200x/71/ad/0c/71ad0ce2f26ec4fd3f88a00a64c4e42d.jpg',
     category: 'Commercial & Mode',
     title: 'Sublimer votre marque',
     subtitle: 'Campagnes visuelles percutantes',

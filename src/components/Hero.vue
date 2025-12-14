@@ -1,7 +1,7 @@
 <template>
   <section class="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary via-gray-900 to-black text-white overflow-hidden">
     <div class="absolute inset-0 opacity-20">
-      <div class="absolute inset-0 bg-[url('/images/sample-1.jpg')] bg-cover bg-center"></div>
+      <div class="absolute inset-0 bg-[url('https://i.pinimg.com/736x/c6/55/2a/c6552aca7d9c81d82f204a59324fd316.jpg')] bg-cover bg-center"></div>
     </div>
     
     <div class="relative z-10 text-center px-4 animate-fade-in-up">

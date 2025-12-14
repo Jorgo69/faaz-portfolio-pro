@@ -1,6 +1,7 @@
 {
   "nav": {
     "home": "Accueil",
+    "world": "Notre Univers",
     "biography": "Biographie",
     "photography": "Photographie",
     "clips": "Clips Vidéo",
@@ -30,13 +31,52 @@
     "description": "Reportages photo et vidéo pour vos événements professionnels et privés."
   },
   "contact": {
-    "title": "Contactez-moi",
-    "subtitle": "Discutons de votre projet",
+    "title": "Discutons de votre projet",
+    "subtitle": "Que vous ayez besoin d'une séance photo, d'un clip vidéo ou d'une couverture événementielle, je suis là pour donner vie à vos idées.",
     "name": "Nom complet",
-    "email": "Email",
-    "message": "Votre message",
-    "submit": "Envoyer",
-    "success": "Message envoyé avec succès !"
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "optional": "optionnel",
+    "projectType": "Type de projet",
+    "selectType": "Sélectionnez le type de projet",
+    "budget": "Budget estimé",
+    "selectBudget": "Sélectionnez une fourchette",
+    "message": "Décrivez votre projet",
+    "messagePlaceholder": "Parlez-moi de votre vision, de vos objectifs et de vos attentes...",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi en cours...",
+    "success": "Message envoyé avec succès !",
+    "successDetails": "Je reviendrai vers vous dans les 24 heures. Consultez vos emails (y compris les spams).",
+    "info": "Informations de contact",
+    "location": "Localisation",
+    "hours": "Horaires d'ouverture",
+    "weekdays": "Lun - Ven",
+    "weekend": "Sam - Dim",
+    "onAppointment": "Sur rendez-vous",
+    "followMe": "Suivez-moi",
+    "faq": "Questions fréquentes",
+    "faqQ1": "Quel est le délai de livraison ?",
+    "faqA1": "En général 7-14 jours pour la photo, 2-4 semaines pour la vidéo selon la complexité.",
+    "faqQ2": "Travaillez-vous en dehors d'Abidjan ?",
+    "faqA2": "Oui, je me déplace dans toute la Côte d'Ivoire et à l'international sur demande.",
+    "faqQ3": "Proposez-vous des devis gratuits ?",
+    "faqA3": "Absolument ! Tous mes devis sont gratuits et sans engagement.",
+    "urgentProject": "Projet urgent ?",
+    "urgentText": "Besoin d'une réponse rapide ? Contactez-moi directement sur WhatsApp.",
+    "types": {
+      "photography": "Photographie",
+      "video": "Clip vidéo / Film",
+      "event": "Couverture événement",
+      "commercial": "Campagne commerciale",
+      "other": "Autre"
+    },
+    "errors": {
+      "nameShort": "Le nom doit contenir au moins 2 caractères",
+      "emailInvalid": "Adresse email invalide",
+      "messageShort": "Le message doit contenir au moins 10 caractères",
+      "messageLong": "Le message ne peut pas dépasser 500 caractères",
+      "sendFailed": "Erreur lors de l'envoi. Veuillez réessayer."
+    }
   },
   "footer": {
     "rights": "Tous droits réservés",

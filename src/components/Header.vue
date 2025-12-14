@@ -87,6 +87,7 @@ const menuOpen = ref(false)
 
 const navLinks = [
   { path: '/', label: 'nav.home' },
+  { path: '/as-world', label: 'nav.world' },
   { path: '/biographie-faaz', label: 'nav.biography' },
   { path: '/photographie', label: 'nav.photography' },
   { path: '/clips-video-professionnels', label: 'nav.clips' },

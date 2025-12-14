@@ -8,8 +8,8 @@
       <div class="grid md:grid-cols-2 gap-12 items-center">
         <div class="animate-fade-in-up">
           <img 
-            src="/images/sample-1.jpg" 
-            alt="Barakell Beni"
+            src="https://i.pinimg.com/736x/c6/3c/99/c63c99df82826c2ea125658dce96283b.jpg" 
+            alt="Faaz - Fa2Z"
             class="rounded-lg shadow-2xl w-full h-auto"
             loading="lazy"
           />
@@ -65,4 +65,3 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 </script>
-````
