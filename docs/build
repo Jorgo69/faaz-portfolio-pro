@@ -1,0 +1,153 @@
+
+---
+## Principe
+
+* **`main`** → code source Vue (dev)
+* **`build` (branche dédiée)** → **uniquement les fichiers buildés**
+* Sur Hostinger → **pull uniquement la branche `build`**, puis servir directement
+
+Aucun Node sur le serveur. Aucun risque.
+
+---
+
+## Étapes locales (une seule fois)
+
+### 1) Créer la branche `build`
+
+```bash
+git checkout -b build
+```
+
+---
+
+### 2) Build Vue
+
+```bash
+npm run build
+```
+
+Supposons que Vue génère :
+
+```
+dist/
+ ├─ index.html
+ ├─ assets/
+```
+
+---
+
+### 3) Nettoyer la branche pour ne garder que le build
+
+⚠️ **On supprime tout sauf `dist/`**
+
+```bash
+rm -rf node_modules src public vite.config.* package*.json
+```
+
+Puis :
+
+```bash
+mv dist/* .
+rmdir dist
+```
+
+Tu dois obtenir :
+
+```
+index.html
+assets/
+```
+
+---
+
+### 4) Commit du build uniquement
+
+```bash
+git add .
+git commit -m "deploy: vue build only"
+git push origin build
+```
+
+La branche `build` ne contient **QUE** le front prêt à servir.
+
+---
+
+## Étapes sur Hostinger
+
+### 5) Cloner uniquement la branche build
+
+```bash
+git clone -b build https://github.com/USER/REPO.git public_html
+```
+
+Ou si le repo existe déjà :
+
+```bash
+git fetch
+git checkout build
+git pull origin build
+```
+
+---
+
+### 6) Résultat côté serveur
+
+```
+public_html/
+ ├─ index.html   ← servi automatiquement
+ └─ assets/
+```
+
+✔ C’est terminé.
+✔ Le serveur sert `index.html` par défaut.
+✔ Les appels API fonctionneront si l’URL est correcte.
+
+---
+
+## Points critiques à ne pas rater
+
+### 1) URL API **AVANT** le build
+
+Dans `.env` :
+
+```env
+VITE_API_URL=https://api.example.com
+```
+
+Puis :
+
+```bash
+npm run build
+```
+
+Le build **fige l’URL**.
+
+---
+
+### 2) SPA routing (important)
+
+Si tu utilises Vue Router en `history` mode :
+
+Créer `.htaccess` dans `public_html` :
+
+```apache
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.html$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+```
+
+Sinon → 404 en refresh.
+
+---
+
+## Conclusion
+
+✔ Oui, une branche dédiée **build-only** est la bonne pratique
+✔ Oui, `git pull` côté Hostinger suffit
+✔ Oui, déplacer le contenu du build à `public_html` est correct
+✔ Oui, zéro dépendance Node sur le serveur
+
+Cette approche est **propre, maîtrisée et scalable**.
